@@ -1,7 +1,7 @@
 from results import YouTubeCommentsAnalyzer
 from extractingcomments import YouTubeCommentsExtractor
-
-api_key="AIzaSyCcp49l_YL1lisFQqp10ay7xnT1oCSx0qo"
+from dotenv import load_dotenv
+load_dotenv()
 
 class  HighlightComments():
     def __init__(self, api_key):
